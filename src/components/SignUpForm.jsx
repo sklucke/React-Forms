@@ -24,6 +24,8 @@ const SignUpForm = ({token, setToken}) => {
         } catch (error) {
           setError(error.message);
         }
+        setUsername("");
+        setPassWord("");
             
     }
     return (
